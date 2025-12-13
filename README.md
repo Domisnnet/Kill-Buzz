@@ -1,6 +1,6 @@
 # Bem-vindo ao Mata Mosquito! 
 
-![App-Kill-Buzz](https://github.com/Domisnnet/App-Kill-Buzz/blob/main/src/Images/iPad-Air-5-820x1180.png)
+![App-Kill-Buzz](https://github.com/Domisnnet/App-Kill-Buzz/blob/main/src/Images/tela-inicial.png)
 
 Prepare-se para testar seus reflexos neste divertido e desafiador jogo de ação!
 
