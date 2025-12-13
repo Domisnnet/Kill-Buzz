@@ -20,7 +20,7 @@ Em **Mata Mosquito**, seu objetivo é simples: eliminar o máximo de mosquitos q
 ---
 
 <a href="https://domisnnet.github.io/App-Kill-Buzz/normal" target="_blank" rel="noopener noreferrer">
-  <img src="Src/Images/botão.webp" width="35px" height="35px" alt="Iniciar Jogo">
+  <img src="https://github.com/Domisnnet/App-Kill-Buzz/blob/main/src/Images/bot%C3%A3o.webp" width="35px" height="35px" alt="Iniciar Jogo">
 </a>
 
 ---
