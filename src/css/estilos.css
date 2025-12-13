@@ -1,69 +1,90 @@
 html {
-    cursor: url(../Images/mata_mosquito.png) 30 30, auto;
+  cursor: url(../Images/mata_mosquito.png) 30 30, auto;
 }
 
 body {
-    background-image: url(../Images/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    margin: 0; 
-	overflow: hidden;
-	padding-top: 30px;
+  background-image: url(../Images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin: 0; 
+  overflow: hidden;
+  padding-top: 30px;
 }
 
 .mosquito1 {
-    width: 10vw;
-    height: 10vw;
+  width: 10vw;
+  height: 10vw;
 }
 
 .mosquito2 {
-    width: 13vw;
-    height: 13vw;
+  width: 13vw;
+  height: 13vw;
 }
 
 .mosquito3 {
-    width: 16vw;
-    height: 16vw;
+  width: 16vw;
+  height: 16vw;
 }
 
 .ladoA {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .ladoB {
-    transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .painel {
-    position: fixed;
-    width: 90%;
-    max-width: 700px;  
-    padding: 10px;
-    left: calc(50% - 45%); 
-    bottom: 0px;
-    border-top: solid 1px #fff;
-    background-color: #fff;
-    opacity: 0.7;
-    display: flex;
-    justify-content: space-between;
+  position: fixed;
+  width: 90%;
+  max-width: 700px; 
+  padding: 10px;
+  left: calc(50% - 45%); 
+  bottom: 0px;
+  border-top: solid 1px #fff;
+  background-color: #fff;
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
 }
 
 .vidas {
-    float: none;
+  float: none;
 }
 
 .cronometro {
-    float: none;
-    font-size: 18px;
-    font-weight: bold;
+  float: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .btn-custom {
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 15px;
-    border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+#painel-configuracao {
+  background-color: rgba(0, 0, 0, 0.6); 
+  border-radius: 15px; 
+  padding: 20px;
+  width: 80%;
+  max-width: 450px; 
+  margin-top: 20px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#div-botao {
+  width: 100%; 
+  text-align: center;
+}
+
+#nivel {
+  font-size: 1.1rem;
 }

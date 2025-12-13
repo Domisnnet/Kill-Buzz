@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BuzzKill: Game</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="Src/Css/reset.css">
-    <link rel="stylesheet" href="Src/Css/estilos.css">
-    <link rel="stylesheet" href="Src/Css/responsivo.css">
-
-    <script src="Js/jogo.js"></script>
+  <title>Mata Mosquitos</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Src/Css/estilos.css">
 </head>
 
 <body onresize="ajustaTamanhoPalcoJogo()">
-    <main>
-        <div class="painel">
-            <div class="vidas">
-                <img id="v1" src="Src/Images/coracao_cheio.png">
-                <img id="v2" src="Src/Images/coracao_cheio.png">
-                <img id="v3" src="Src/Images/coracao_cheio.png">
-            </div>
+    
+  <div class="painel">
+    <div class="vidas">
+      <img id="v1" src="src/imagens/coracao_cheio.png" alt="Vida 1">
+      <img id="v2" src="src/imagens/coracao_cheio.png" alt="Vida 2">
+      <img id="v3" src="src/imagens/coracao_cheio.png" alt="Vida 3">
+    </div>
 
-            <div class="cronometro">Tempo restante: <span id="cronometro"></span>
-            </div>
-        </div>
-    </main>
+    <div class="cronometro">
+      Tempo restante: <span id="cronometro">15</span>
+    </div>
+  </div>
+    
+  <script src="app.js"></script>
+
 </body>
 </html>
