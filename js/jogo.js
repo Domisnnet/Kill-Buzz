@@ -2,106 +2,80 @@ let altura = 0
 let largura = 0
 let vidas = 1
 let tempo = 15
-let criaMosquitoTempo = 1500
-let nivel = window.location.search
+const MOSQUITO_TAMANHO = 90
 
-nivel = nivel.replace('?', '')
+const NIVEIS_CONFIG = {
+    'normal': 1500,
+    'dificil': 1000,
+    'chucknorris': 750
+};
 
-if(nivel === 'normal') {
-	//1500
-	criaMosquitoTempo = 1500
-} else if(nivel === 'dificil') {
-	//1000
-	criaMosquitoTempo = 1000
-} else if(nivel === 'ckucknorris') {
-	//750
-	criaMosquitoTempo = 750
-}
+let nivel = window.location.search.replace('?', '')
+let criaMosquitoTempo = NIVEIS_CONFIG[nivel] || NIVEIS_CONFIG['normal']
 
 function ajustaTamanhoPalcoJogo() {
-	altura = window.innerHeight
-	largura = window.innerWidth
-
-	console.log(largura, altura)
+    altura = window.innerHeight
+    largura = window.innerWidth
 }
 
 ajustaTamanhoPalcoJogo()
-
 let cronometro = setInterval(function() {
+    tempo -= 1
 
-	tempo -= 1
-
-	if(tempo < 0) {
-		clearInterval(cronometro)
-		clearInterval(criaMosca)
-		window.location.href = 'vitoria.html'
-	} else {
-		document.getElementById('cronometro').innerHTML = tempo
-	}
-	
+    if(tempo < 0) {
+        clearInterval(cronometro)
+        clearInterval(criaMosca) 
+        window.location.href = 'vitoria.html'
+    } else {
+        document.getElementById('cronometro').innerHTML = tempo
+    }
 }, 1000)
 
 function posicaoRandomica() {
+    // Remover o mosquito anterior (caso exista)
+    if(document.getElementById('mosquito')) {
+        document.getElementById('mosquito').remove()
 
+        // Lógica de Vidas
+        if(vidas >= 3) {
+            window.location.href = 'fim_de_jogo.html'
+        } else {
+            document.getElementById('v' + vidas).src = 
+			"Src/Imagescoracao_vazio.png"
+            vidas++
+        }
+    }
 
-	//remover o mosquito anterior (caso exista)
-	if(document.getElementById('mosquito')) {
-		document.getElementById('mosquito').remove()
-		if(vidas > 3) {
+    let posicaoX = Math.floor(Math.random() * largura) - MOSQUITO_TAMANHO
+    let posicaoY = Math.floor(Math.random() * altura) - MOSQUITO_TAMANHO
 
-			window.location.href = 'fim_de_jogo.html'
-		} else {
-			document.getElementById('v' + vidas).src = "src/imagens/coracao_vazio.png"
+    // Evitar que o mosquito saia da tela
+    posicaoX = posicaoX < 0 ? 0 : posicaoX
+    posicaoY = posicaoY < 0 ? 0 : posicaoY
 
-			vidas++
-		}
-	}
+    let mosquito = document.createElement('img')
+    mosquito.src = 'Src/Images/mosquito.png' 
+    mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
+    mosquito.style.left = posicaoX + 'px'
+    mosquito.style.top = posicaoY + 'px'
+    mosquito.style.position = 'absolute'
+    mosquito.id = 'mosquito'
 
-	let posicaoX = Math.floor(Math.random() * largura) - 90
-	let posicaoY = Math.floor(Math.random() * altura) - 90
+    mosquito.onclick = function() {
+        this.remove()
+    }
 
-	posicaoX = posicaoX < 0 ? 0 : posicaoX
-	posicaoY = posicaoY < 0 ? 0 : posicaoY
-
-	console.log(posicaoX, posicaoY)
-
-	//criar o elemento html
-	let mosquito = document.createElement('img')
-	mosquito.src = 'Src/Images/mosquito.png'
-	mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
-	mosquito.style.left = posicaoX + 'px'
-	mosquito.style.top = posicaoY + 'px'
-	mosquito.style.position = 'absolute'
-	mosquito.id = 'mosquito'
-	mosquito.onclick = function() {
-		this.remove()
-	}
-	document.body.appendChild(mosquito)
+    document.body.appendChild(mosquito)
 }
 
 function tamanhoAleatorio() {
-
-	let classe = Math.floor(Math.random() * 3)
-	switch(classe) {
-		case 0:
-			return 'mosquito1'
-		
-		case 1:
-			return 'mosquito2'
-
-		case 2:
-			return 'mosquito3'
-	}
+    const classes = ['mosquito1', 'mosquito2', 'mosquito3'];
+    const indice = Math.floor(Math.random() * classes.length);
+    return classes[indice];
 }
 
 function ladoAleatorio() {
-	let classe = Math.floor(Math.random() * 2)
-	switch(classe) {
-		case 0:
-			return 'ladoA'
-		
-		case 1:
-			return 'ladoB'
-
-	}
+    const lados = ['ladoA', 'ladoB'];
+    const indice = Math.floor(Math.random() * lados.length);
+    return lados[indice];
 }
