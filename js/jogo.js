@@ -5,77 +5,78 @@ let tempo = 15
 const MOSQUITO_TAMANHO = 90
 
 const NIVEIS_CONFIG = {
-    'normal': 1500,
-    'dificil': 1000,
-    'chucknorris': 750
+  'normal': 1500,
+  'dificil': 1000,
+  'chucknorris': 750
 };
 
 let nivel = window.location.search.replace('?', '')
 let criaMosquitoTempo = NIVEIS_CONFIG[nivel] || NIVEIS_CONFIG['normal']
 
 function ajustaTamanhoPalcoJogo() {
-    altura = window.innerHeight
-    largura = window.innerWidth
+  altura = window.innerHeight
+  largura = window.innerWidth
 }
 
-ajustaTamanhoPalcoJogo()
-let cronometro = setInterval(function() {
-    tempo -= 1
+ajustaTamanhoPalcoJogo() 
+window.addEventListener('resize', ajustaTamanhoPalcoJogo);
 
-    if(tempo < 0) {
-        clearInterval(cronometro)
-        clearInterval(criaMosca) 
-        window.location.href = 'vitoria.html'
-    } else {
-        document.getElementById('cronometro').innerHTML = tempo
-    }
+let cronometro = setInterval(function() {
+  tempo -= 1
+
+  if(tempo < 0) {
+    clearInterval(cronometro)
+    clearInterval(criaMosca) 
+    window.location.href = 'vitoria.html'
+  } else {
+    document.getElementById('cronometro').innerHTML = tempo
+  }
 }, 1000)
 
 function posicaoRandomica() {
-    // Remover o mosquito anterior (caso exista)
-    if(document.getElementById('mosquito')) {
-        document.getElementById('mosquito').remove()
+  if(document.getElementById('mosquito')) {
+    document.getElementById('mosquito').remove()
 
-        // Lógica de Vidas
-        if(vidas >= 3) {
-            window.location.href = 'fim_de_jogo.html'
-        } else {
-            document.getElementById('v' + vidas).src = 
-			"Src/Imagescoracao_vazio.png"
-            vidas++
-        }
+    if(vidas >= 3) {
+      window.location.href = 'fim_de_jogo.html'
+    } else {
+      document.getElementById('v' + vidas).src = "Src/Images/coracao_vazio.png"
+      vidas++
     }
+  }
 
-    let posicaoX = Math.floor(Math.random() * largura) - MOSQUITO_TAMANHO
-    let posicaoY = Math.floor(Math.random() * altura) - MOSQUITO_TAMANHO
+  let posicaoX = Math.floor(Math.random() * largura) - MOSQUITO_TAMANHO
+  let posicaoY = Math.floor(Math.random() * altura) - MOSQUITO_TAMANHO
 
-    // Evitar que o mosquito saia da tela
-    posicaoX = posicaoX < 0 ? 0 : posicaoX
-    posicaoY = posicaoY < 0 ? 0 : posicaoY
+  posicaoX = posicaoX < 0 ? 0 : posicaoX
+  posicaoY = posicaoY < 0 ? 0 : posicaoY
 
-    let mosquito = document.createElement('img')
-    mosquito.src = 'Src/Images/mosquito.png' 
-    mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
-    mosquito.style.left = posicaoX + 'px'
-    mosquito.style.top = posicaoY + 'px'
-    mosquito.style.position = 'absolute'
-    mosquito.id = 'mosquito'
+  let mosquito = document.createElement('img')
+  mosquito.src = 'Src/Images/mosquito.png' 
+  mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
+  mosquito.style.left = posicaoX + 'px'
+  mosquito.style.top = posicaoY + 'px'
+  mosquito.style.position = 'absolute'
+  mosquito.id = 'mosquito'
 
-    mosquito.onclick = function() {
-        this.remove()
-    }
-
-    document.body.appendChild(mosquito)
+  mosquito.onclick = function() {
+    this.remove()
+  }
+  document.body.appendChild(mosquito)
 }
 
 function tamanhoAleatorio() {
-    const classes = ['mosquito1', 'mosquito2', 'mosquito3'];
-    const indice = Math.floor(Math.random() * classes.length);
-    return classes[indice];
+  const classes = ['mosquito1', 'mosquito2', 'mosquito3'];
+  const indice = Math.floor(Math.random() * classes.length);
+  return classes[indice];
 }
 
 function ladoAleatorio() {
-    const lados = ['ladoA', 'ladoB'];
-    const indice = Math.floor(Math.random() * lados.length);
-    return lados[indice];
+  const lados = ['ladoA', 'ladoB'];
+  const indice = Math.floor(Math.random() * lados.length);
+  return lados[indice];
 }
+
+let criaMosca = setInterval(function() {
+  posicaoRandomica()
+}, criaMosquitoTempo);
