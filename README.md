@@ -1,6 +1,6 @@
 # Bem-vindo ao Mata Mosquito! 
 
-![Mata Mosquito](src/imagens/iPad-Air-5-820x1180.png)
+![Mata Mosquito](Src/Images/iPad-Air-5-820x1180.png)
 
 Prepare-se para testar seus reflexos neste divertido e desafiador jogo de ação!
 
@@ -19,8 +19,8 @@ Em **Mata Mosquito**, seu objetivo é simples: eliminar o máximo de mosquitos q
 2.  **Iniciando o Jogo:** Selecione um nível e clique no botão abaixo para começar:
 ---
 
-<a href="https://domisnnet.github.io/app-mata-mosquito/app.html?normal" target="_blank" rel="noopener noreferrer">
-  <img src="src/imagens/botão.webp" width="35px" height="35px" alt="Iniciar Jogo">
+<a href="https://domisnnet.github.io/App-Kill-Buzz/normal" target="_blank" rel="noopener noreferrer">
+  <img src="Src/Images/botão.webp" width="35px" height="35px" alt="Iniciar Jogo">
 </a>
 
 ---
@@ -40,7 +40,7 @@ Este jogo foi desenvolvido usando:
 
 Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
-[Repositório do Mata Mosquito](https://domisnnet.github.io/app-mata-mosquito/)
+[Repositório do Mata Mosquito](https://domisnnet.github.io/App-Kill-Buzz/)
 
 ## Créditos 📝
 
@@ -71,7 +71,7 @@ Este projeto é open source e está licenciado sob a Licença MIT. veja o arquiv
    **Resposta:** Você pode entrar em contato através do perfil do GitHub: 
 
 <a href="https://github.com/Domisnnet">
-    <img src="src/imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
+    <img src="Src/Images/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
     DomisDev
 </a> 
 
