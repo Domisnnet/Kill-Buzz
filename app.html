@@ -1,39 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Seu Jogo</title>
+    <title>BuzzKill: Game</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/css/estilo.css">
-    <link rel="stylesheet" href="src/css/reset.css">
-	<link rel="stylesheet" href="src/css/responsivo.css">
-		<script src="js/jogo.js">
-		</script>
-	</head>
+    <link rel="stylesheet" href="Src/Css/reset.css">
+    <link rel="stylesheet" href="Src/Css/estilos.css">
+    <link rel="stylesheet" href="Src/Css/responsivo.css">
 
-	<body onresize="ajustaTamanhoPalcoJogo()">
+    <script src="js/jogo.js"></script>
+</head>
 
-		<div class="painel">
-			<div class="vidas">
-				<img id="v1" src="src/imagens/coracao_cheio.png">
-				<img id="v2" src="src/imagens/coracao_cheio.png">
-				<img id="v3" src="src/imagens/coracao_cheio.png">
-			</div>
+<body onresize="ajustaTamanhoPalcoJogo()">
+    <main>
+        <div class="painel">
+            <div class="vidas">
+                <img id="v1" src="Src/Images/coracao_cheio.png">
+                <img id="v2" src="Src/Images/coracao_cheio.png">
+                <img id="v3" src="Src/Images/coracao_cheio.png">
+            </div>
 
-			<div class="cronometro">Tempo restante: <span id="cronometro"></span>
-			</div>
-		</div>
-
-		<script>
-			document.getElementById('cronometro').innerHTML = tempo
-
-			let criaMosca = setInterval(function() { 
-				posicaoRandomica()
-			}, criaMosquitoTempo)
-
-		</script>
-
-	</body>
-
+            <div class="cronometro">Tempo restante: <span id="cronometro"></span>
+            </div>
+        </div>
+    </main>
+</body>
 </html>
