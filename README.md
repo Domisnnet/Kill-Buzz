@@ -40,7 +40,7 @@ Este jogo foi desenvolvido usando:
 
 Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
-[Repositório do Mata Mosquito](https://domisnnet.github.io/App-Kill-Buzz/)
+[Repositório do Mata Mosquito](https://github.com/Domisnnet/App-Kill-Buzz)
 
 ## Créditos 📝
 
