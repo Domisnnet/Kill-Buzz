@@ -49,8 +49,6 @@ function posicaoRandomica() {
 	//remover o mosquito anterior (caso exista)
 	if(document.getElementById('mosquito')) {
 		document.getElementById('mosquito').remove()
-
-		//console.log('elemento selecionado foi: v' + vidas)
 		if(vidas > 3) {
 
 			window.location.href = 'fim_de_jogo.html'
@@ -80,15 +78,12 @@ function posicaoRandomica() {
 	mosquito.onclick = function() {
 		this.remove()
 	}
-
 	document.body.appendChild(mosquito)
-
 }
 
 function tamanhoAleatorio() {
 
 	let classe = Math.floor(Math.random() * 3)
-	
 	switch(classe) {
 		case 0:
 			return 'mosquito1'
@@ -102,9 +97,7 @@ function tamanhoAleatorio() {
 }
 
 function ladoAleatorio() {
-
 	let classe = Math.floor(Math.random() * 2)
-	
 	switch(classe) {
 		case 0:
 			return 'ladoA'
