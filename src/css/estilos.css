@@ -1,5 +1,5 @@
 html {
-  cursor: url(../Images/mata_mosquito.png);
+  cursor: url(../Images/mata_mosquito.png) 30 30, auto;
 }
 
 body {
@@ -9,8 +9,19 @@ body {
   background-position: center;
   height: 100vh;
   margin: 0; 
-  overflow: hidden;
-  padding: 10px;
+  overflow: hidden; 
+}
+
+body.tela-inicial, body.tela-final {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0; 
+}
+
+body:not(.tela-inicial):not(.tela-final) {
+  padding-top: 30px;
 }
 
 .mosquito1 {
@@ -69,8 +80,8 @@ body {
 }
 
 #painel-configuracao {
-  padding: 20px;
-  width: 80%;
+  padding: 25px; 
+  width: 90%;
   max-width: 450px; 
   margin-top: 20px; 
   margin-left: auto;
@@ -84,4 +95,14 @@ body {
 
 #nivel {
   font-size: 1.1rem;
+}
+
+.logo-custom {
+  max-width: 80%;
+  margin-top: 60px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.9);
 }
