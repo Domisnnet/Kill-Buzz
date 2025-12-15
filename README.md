@@ -80,21 +80,21 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
             Prepare seus commits - Guarde suas mudanças no repositório:<br>
          <a href="https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit" 
             target="_blank">
-         <img alt="Tutorial sobre Commits" 
-         src="https://img.shields.io/badge/Docs-Commits-4c1?style=for-the-badge&logo=git&logoColor=white">
+            <img alt="Tutorial sobre Commits" 
+            src="https://img.shields.io/badge/Docs-Commits-4c1?style=for-the-badge&logo=git&logoColor=white">
          </a>
          </span>
       </li>
       <li style="margin-bottom: 10px;">
          <span style="font-weight: bold; color: #1c7430;">4. 🚀 
             Envie - Lance sua sugestão de Melhoria:<br>
-         <img alt="Envie o código" 
-         src="https://img.shields.io/badge/Ação-Push-FE5C00?style=for-the-badge&logo=git&logoColor=white">
+            <img alt="Envie o código" 
+            src="https://img.shields.io/badge/Ação-Push-FE5C00?style=for-the-badge&logo=git&logoColor=white">
          </span>
       </li>
       <li>
          <span style="font-weight: bold; color: #1c7430;">5. ⚔️ 
-            Desafie este deck original
+            Desafie este deck original - Abrindo um Pull Request:<br>
          <a href="https://github.2com/Domisnnet/Kill-Buzz/compare" target="_blank">
             <img alt="Abrir Pull Request" 
             src="https://img.shields.io/badge/-Abrir%20PR-green?style=for-the-badge&logo=git">
@@ -103,7 +103,7 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
       </li>
       <li>
          <span style="font-weight: bold; color: #1c7430;">6. 🐛
-            Achou algum problema?
+            Achou algum problema? - Realte pela Issue:<br>
          <a href="https://github.com/Domisnnet/Kill-Buzz/issues" target="_blank">
             <img alt="Issues Abertas" 
             src="https://img.shields.io/github/issues/Domisnnet/Kill-Buzz?style=for-the-badge&color=red">
