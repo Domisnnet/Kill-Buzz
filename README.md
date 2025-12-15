@@ -19,7 +19,7 @@ Em **Mata Mosquito**, seu objetivo é simples: eliminar o máximo de mosquitos q
 2.  **Iniciando o Jogo:** Selecione um nível e clique no botão abaixo para começar:
 ---
 
-<a href="https://domisnnet.github.io/Kill-Buzz/?normal" target="_blank" rel="noopener noreferrer">
+<a href="https://domisnnet.github.io/Kill-Buzz/app.html?normal" target="_blank" rel="noopener noreferrer">
   <img src="https://github.com/Domisnnet/App-Kill-Buzz/blob/main/src/Images/bot%C3%A3o.webp" width="35px" height="35px" alt="Iniciar Jogo">
 </a>
 
@@ -40,7 +40,7 @@ Este jogo foi desenvolvido usando:
 
 Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
-[Repositório do Mata Mosquito](https://github.com/Domisnnet/Kill-Buzz)
+![Repositório do Mata Mosquito](https://github.com/Domisnnet/Kill-Buzz)
 
 ## Créditos 📝
 
