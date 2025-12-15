@@ -64,7 +64,7 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
             src="https://img.shields.io/badge/-Fork%20Me-blue?style=for-the-badge&logo=github">
          </a>
          </span> 
-         Adicione este projeto ao seu deck.
+            Adicione este projeto ao seu deck.
       </li>
       <li style="margin-bottom: 10px;">
          <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:
