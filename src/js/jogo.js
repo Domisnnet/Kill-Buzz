@@ -3,7 +3,6 @@ let largura = 0
 let vidas = 1
 let tempo = 15
 const MOSQUITO_TAMANHO = 90
-
 const NIVEIS_CONFIG = {
   'normal': 1500,
   'dificil': 1000,
@@ -23,7 +22,6 @@ window.addEventListener('resize', ajustaTamanhoPalcoJogo);
 
 let cronometro = setInterval(function() {
   tempo -= 1
-
   if(tempo < 0) {
     clearInterval(cronometro)
     clearInterval(criaMosca) 
@@ -36,11 +34,10 @@ let cronometro = setInterval(function() {
 function posicaoRandomica() {
   if(document.getElementById('mosquito')) {
     document.getElementById('mosquito').remove()
-
     if(vidas >= 3) {
       window.location.href = 'fim_de_jogo.html'
     } else {
-      document.getElementById('v' + vidas).src = "src/images/coracao_vazio.png"
+      document.getElementById('v' + vidas).src = "src/imagens/coracao_vazio.png"
       vidas++
     }
   }
@@ -52,13 +49,12 @@ function posicaoRandomica() {
   posicaoY = posicaoY < 0 ? 0 : posicaoY
 
   let mosquito = document.createElement('img')
-  mosquito.src = 'src/images/mosquito.png' 
+  mosquito.src = 'src/imagens/mosquito.png' 
   mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
   mosquito.style.left = posicaoX + 'px'
   mosquito.style.top = posicaoY + 'px'
   mosquito.style.position = 'absolute'
   mosquito.id = 'mosquito'
-
   mosquito.onclick = function() {
     this.remove()
   }
