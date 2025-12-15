@@ -86,16 +86,19 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
          </span>
       </li>
       <li style="margin-bottom: 10px;">
-         <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie:
-         </span> Lance sua sugestão (`git push origin minha-contribuicao`).
+         <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie:</span>
+            <img alt="Envie o código" 
+            src="https://img.shields.io/badge/Ação-Push-FE5C00?style=for-the-badge&logo=git&logoColor=white"><br>
+            Lance sua sugestão (`git push origin minha-contribuicao`).
       </li>
       <li>
          <span style="font-weight: bold; color: #1c7430;">5. ⚔️ 
+            Desafie este deck original
          <a href="https://github.2com/Domisnnet/Kill-Buzz/compare" target="_blank">
             <img alt="Abrir Pull Request" 
             src="https://img.shields.io/badge/-Abrir%20PR-green?style=for-the-badge&logo=git">
          </a>
-         </span> Desafie este deck original.
+         </span>
       </li>
       <li>
          <span style="font-weight: bold; color: #1c7430;">6. 🐛
