@@ -48,32 +48,43 @@ Este jogo foi desenvolvido usando:
 
 Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos:
 
-<div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; 
-            border: 2px solid #222;">
-   <p style="margin-bottom: 10px; font-weight: bold; color: #0056b3; text-align: center;">
-      <span style="display:inline-block; margin-right: 5px;"> 👐 </span> Siga os passos para fortalecer este deck:
-   </p>
+<div style="background-color: #f0f0f0; padding: 20px; 
+            border-radius: 10px; border: 2px solid #222;">
    <ul style="list-style-type: none; padding: 0; margin: 0;">
-      <li style="margin-bottom: 10px;">
-         <span style="font-weight: bold; color: #1c7430;">1. 🍴 <a href="https://github.com/Domisnnet/Kill-Buzz/fork" target="_blank" style="color: #1c7430; text-decoration: underline;">Faça um fork</a>:</span> Adicione este projeto ao seu deck.
+      <li style="margin-bottom: 15px;">
+         <span style="font-weight: bold; color: #1c7430;">1. 🍴 Faça um Fork:</span> Adicione este projeto ao seu deck.
+         <br>
+         <a href="https://github.com/Domisnnet/Kill-Buzz/fork" target="_blank">
+            <img alt="Fazer Fork" src="https://img.shields.io/badge/-Fork%20Me-blue?style=for-the-badge&logo=github">
+         </a>
       </li>
+
       <li style="margin-bottom: 10px;">
          <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:</span> Prepare suas atualizações. <a href="https://www.atlassian.com/br/git/tutorials/using-branches" target="_blank" style="color: #1c7430; text-decoration: underline;">Tutorial sobre Branches</a>
       </li>
+
       <li style="margin-bottom: 10px;">
          <span style="font-weight: bold; color: #1c7430;">3. ✍️ Prepare seus commits:</span> Guarde suas mudanças. <a href="https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit" target="_blank" style="color: #1c7430; text-decoration: underline;">Tutorial sobre Commits</a>
       </li>
-      <li style="margin-bottom: 10px;">
+
+      <li style="margin-bottom: 15px;">
          <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie:</span> Lance sua sugestão (`git push origin minha-contribuicao`).
       </li>
-      <li>
-         <span style="font-weight: bold; color: #1c7430;">5. ⚔️ <a href="https://github.com/Domisnnet/Kill-Buzz/compare" target="_blank" style="color: #1c7430; text-decoration: underline;">Abra um Pull Request</a>:</span> Desafie este deck original.
-      </li>
-      <li>
-         <span style="font-weight: bold; color: #1c7430;">6. 🐛 
-         <a href="https://github.com/Domisnnet/Kill-Buzz/issues" target="_blank" style="color: #1c7430; text-decoration: underline;">Reportar um problema/Sugestão (Issues)
+
+      <li style="margin-bottom: 15px;">
+         <span style="font-weight: bold; color: #1c7430;">5. ⚔️ Pull Request:</span> Desafie este deck original.
+         <br>
+         <a href="https://github.com/Domisnnet/Kill-Buzz/compare" target="_blank">
+            <img alt="Abrir Pull Request" src="https://img.shields.io/badge/-Abrir%20PR-green?style=for-the-badge&logo=git">
          </a>
-         </span>
+      </li>
+
+      <li>
+         <span style="font-weight: bold; color: #1c7430;">6. 🐛 Reportar Problema/Sugestão:</span>
+         <br>
+         <a href="https://github.com/Domisnnet/Kill-Buzz/issues" target="_blank">
+            <img alt="Issues Abertas" src="https://img.shields.io/github/issues/Domisnnet/Kill-Buzz?style=for-the-badge&color=red">
+         </a>
       </li>
    </ul>
 </div>
