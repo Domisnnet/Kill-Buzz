@@ -1,0 +1,281 @@
+/*
+  ==============================
+  1. ESTILOS GERAIS & RESET
+  ==============================
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Cursor customizado para jogabilidade */
+html {
+  cursor: url(../Images/mata_mosquito.png) 30 30, auto;
+}
+
+/*
+  ==============================
+  2. ESTILOS DE FUNDO E LAYOUT PRINCIPAL
+  ==============================
+*/
+body {
+  background-image: url(../Images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0; 
+  overflow: hidden; 
+}
+
+body.tela-inicial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0; 
+}
+
+body:not(.tela-inicial) {
+  padding-top: 30px;
+}
+
+/*
+  ==============================
+  3. COMPONENTES: LOGO E FORMULÁRIO (TELA INICIAL)
+  ==============================
+*/
+.logo-custom {
+  max-width: 80%;
+  margin-top: 60px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+#painel-configuracao {
+  padding: 25px; 
+  width: 90%;
+  max-width: 450px; 
+  margin-top: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#div-botao {
+  width: 100%; 
+  text-align: center;
+}
+
+#nivel {
+  font-size: 1.1rem;
+}
+
+.btn-custom {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/*
+  ==============================
+  4. ELEMENTOS DO JOGO (MOSQUITOS)
+  ==============================
+*/
+.mosquito1 {
+  width: 10vw;
+  height: 10vw;
+}
+
+.mosquito2 {
+  width: 13vw;
+  height: 13vw;
+}
+
+.mosquito3 {
+  width: 16vw;
+  height: 16vw;
+}
+
+.ladoA {
+  transform: scaleX(1);
+}
+
+.ladoB {
+  transform: scaleX(-1);
+}
+
+/*
+  ==============================
+  5. PAINEL DE INFORMAÇÕES (HUD)
+  ==============================
+*/
+.painel {
+  position: fixed;
+  width: 90%;
+  max-width: 700px; 
+  padding: 10px;
+  left: calc(50% - 45%); 
+  bottom: 0px;
+  border-top: solid 1px #fff;
+  background-color: #fff;
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vidas {
+  float: none;
+}
+
+.cronometro {
+  float: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*
+  ==============================
+  6. MEDIA QUERIES (RESPONSIVIDADE)
+  ==============================
+*/
+@media (min-width: 1200px) {
+  .cronometro {
+    font-size: 22px;
+  }
+  .painel {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cronometro {
+    font-size: 20px;
+  }
+  .painel {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1140px) { 
+  .cronometro {
+    font-size: 21px; 
+  }
+  .painel {
+    font-size: 17px; 
+  }
+
+  #div-botao {
+    padding-bottom: 70px; 
+  }
+}
+  
+@media (max-width: 991.98px) {
+  .mosquito1 {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .mosquito2 {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .mosquito3 {
+    width: 18vw;
+    height: 18vw;
+  }
+
+  .painel {
+    width: 95%;
+    left: calc(50% - 47.5%);
+    font-size: 16px;
+    max-width: none;
+    padding: 8px;
+  }
+
+  .cronometro {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .mosquito1 {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .mosquito2 {
+    width: 18vw;
+    height: 18vw;
+  }
+
+  .mosquito3 {
+    width: 21vw;
+    height: 21vw;
+  }
+
+  .painel {
+    width: 98%;
+    left: calc(50% - 49%);
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .cronometro {
+    font-size: 16px;
+  }
+}
+    
+@media (max-width: 575.98px) {
+  .mosquito1 {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .mosquito2 {
+    width: 23vw;
+    height: 23vw;
+  }
+
+  .mosquito3 {
+    width: 26vw;
+    height: 26vw;
+  }
+      
+  .painel {
+    width: 98%;
+    left: calc(50% - 49%);
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .cronometro {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 392.98px) {
+  .image-container {
+    padding: 15px; 
+  }
+
+  .responsive-image {
+    width: 90%; 
+    max-width: 90%;
+    margin: auto;
+  }
+}
