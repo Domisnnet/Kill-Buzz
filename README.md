@@ -16,8 +16,6 @@ Em **Mata Mosquito**, seu objetivo é simples: eliminar o máximo de mosquitos q
     - [ ] **Difícil:** Um desafio maior, com mosquitos mais rápidos, surgindo a cada 1 segundo.
     - [ ] **Chuck Norris:** Para os mais corajosos! Mosquitos rápidos como um raio, surgindo em menos de 1 segundo.
 
----   
-
 2.  **Iniciando o Jogo:** Vai estar selecionado por padrão o Normal, clique no botão abaixo para começar:
 
 <a href="https://domisnnet.github.io/Kill-Buzz/app.html?normal" target="_blank" rel="noopener noreferrer">
