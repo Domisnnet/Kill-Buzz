@@ -59,7 +59,6 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
 Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
 [![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Kill-Buzz?style=social)](https://github.com/Domisnnet/Kill-Buzz)
-
 [![Acessar Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FKill--Buzz-blue?style=flat&logo=github)](https://github.com/Domisnnet/Kill-Buzz)
 
 ## Créditos 📝
