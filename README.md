@@ -87,6 +87,7 @@ Este projeto é *open source* e está licenciado sob a Licença **MIT**. Veja o 
 <a href="https://github.com/Domisnnet" target="_blank">
    <img src="https://raw.githubusercontent.com/Domisnnet/Kill-Buzz/main/src/imagens/DomisDev.png" alt="Acessar perfil GitHub" height="100px" width="100px"/>
 </a>
+
 ---
 
 Divirta-se eliminando todos os mosquitos! 🎉
