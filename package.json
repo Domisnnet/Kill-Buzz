@@ -1,0 +1,14 @@
+{
+  "name": "kill-buzz",
+  "version": "1.0.0",
+  "scripts": {
+    "minify:js": "terser Src/js/jogo.js -o Src/js/jogo.min.js",
+    "minify:css": "cleancss -o Src/Css/style.min.css Src/Css/style.css",
+    "build": "npm run minify:js && npm run minify:css"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "imagemin-cli": "^6.0.0",
+    "terser": "^5.30.4"
+  }
+}
