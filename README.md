@@ -77,7 +77,7 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
       </li>
       <li style="margin-bottom: 10px;">
          <span style="font-weight: bold; color: #1c7430;">3. ✍️ 
-            Prepare seus commits - Guarde suas mudanças no repositório:
+            Prepare seus commits - Guarde suas mudanças no repositório:<br>
          <a href="https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit" 
             target="_blank">
          <img alt="Tutorial sobre Commits" 
