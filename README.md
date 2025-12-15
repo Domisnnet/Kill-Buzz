@@ -84,8 +84,8 @@ Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://
 **Pergunta 4:** Como posso entrar em contato com o desenvolvedor?
 **Resposta:** Você pode entrar em contato através do meu perfil no GitHub.
 
-<a href="https://github.com/Domisnnet" target="_blank">
-   <img src="https://raw.githubusercontent.com/Domisnnet/Kill-Buzz/main/src/imagens/DomisDev.png" alt="Acessar perfil GitHub" height="100px" width="100px"/>
+<a href="https://github.com/Domisnnet">
+    <img src="https://github.com/Domisnnet/Kill-Buzz/blob/main/public/images/DomisDev.png" width="150px" height="150px" alt="Acessar perfil GitHub">
 </a>
 
 ---
