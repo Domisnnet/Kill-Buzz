@@ -71,7 +71,6 @@ Este projeto é open source e está licenciado sob a Licença MIT. veja o arquiv
 
 <a href="https://github.com/Domisnnet">
    <img src="https://github.com/Domisnnet/App-Kill-Buzz/blob/main/src/imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
-    DomisDev
 </a> 
 
 ---
