@@ -86,10 +86,11 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
          </span>
       </li>
       <li style="margin-bottom: 10px;">
-         <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie:</span>
+         <span style="font-weight: bold; color: #1c7430;">4. 🚀 Envie:
+            Lance sua sugestão
             <img alt="Envie o código" 
             src="https://img.shields.io/badge/Ação-Push-FE5C00?style=for-the-badge&logo=git&logoColor=white"><br>
-            Lance sua sugestão (`git push origin minha-contribuicao`).
+         </span>
       </li>
       <li>
          <span style="font-weight: bold; color: #1c7430;">5. ⚔️ 
