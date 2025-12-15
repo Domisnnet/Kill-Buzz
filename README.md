@@ -103,6 +103,7 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
       </li>
       <li>
          <span style="font-weight: bold; color: #1c7430;">6. 🐛
+            Achou algum problema?
          <a href="https://github.com/Domisnnet/Kill-Buzz/issues" target="_blank">
             <img alt="Issues Abertas" 
             src="https://img.shields.io/github/issues/Domisnnet/Kill-Buzz?style=for-the-badge&color=red">
