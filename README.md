@@ -68,7 +68,7 @@ Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
 ## 📄 Licença
 
-Este projeto é *open source* e está licenciado sob a Licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto é *open source* e está licenciado sob a Licença: [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Kill-Buzz)](https://github.com/Domisnnet/Kill-Buzz/blob/main/LICENSE).
 
 ## FAQ 🤔
 
