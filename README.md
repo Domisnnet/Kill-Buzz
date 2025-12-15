@@ -73,11 +73,6 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
       </li>
     </ul>
 </div>
-<<<<<<< HEAD
-
----
-=======
->>>>>>> e0ba4581e38c93e40ccded02241cb9212d75a90c
 
 ## Código Fonte 💻
 
