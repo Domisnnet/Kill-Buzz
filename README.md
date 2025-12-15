@@ -2,7 +2,7 @@
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blue)
-![Licença MIT](https://img.shields.io/github/license/Domisnnet/Kill-Buzz)
+[![Licença MIT](https://img.shields.io/github/license/Domisnnet/Kill-Buzz)](https://github.com/Domisnnet/Kill-Buzz?tab=MIT-1-ov-file)
 
 ![Tela Principal do Jogo](https://raw.githubusercontent.com/Domisnnet/Kill-Buzz/main/src/imagens/tela.png)
 
@@ -68,7 +68,7 @@ Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
 ## 📄 Licença
 
-Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Kill-Buzz)](https://github.com/Domisnnet/Kill-Buzz/blob/main/LICENSE)
+Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Kill-Buzz)](https://github.com/Domisnnet/Kill-Buzz?tab=MIT-1-ov-file)
 
 ## FAQ 🤔
 
