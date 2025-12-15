@@ -1,6 +1,6 @@
 # Bem-vindo ao Mata Mosquito! 
 
-![App-Kill-Buzz](https://github.com/Domisnnet/Kill-Buzz/blob/main/src/Images/tela.png)
+![App-Kill-Buzz](https://github.com/Domisnnet/Kill-Buzz/blob/main/src/imagens/tela.png)
 
 Prepare-se para testar seus reflexos neste divertido e desafiador jogo de ação!
 
