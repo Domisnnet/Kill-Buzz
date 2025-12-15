@@ -12,7 +12,7 @@ Prepare-se para testar seus reflexos neste divertido e desafiador jogo de ação
 
 Clique no botão abaixo e comece a eliminar os mosquitos:
 
-<a href="https://domisnnet.github.io/Kill-Buzz" target="_blank">
+<a href="https://domisnnet.github.io/Kill-Buzz/app.html?normal" target="_blank">
     <img alt="Botão Iniciar Jogo" src="https://raw.githubusercontent.com/Domisnnet/Kill-Buzz/main/src/imagens/botao.webp" height="40" width="120" />
 </a>
 
@@ -56,13 +56,15 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
 
 ## Código Fonte 💻
 
-Gostou do jogo? Acesse o repositório para ver o código e contribuir:
+Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
-[Repositório no GitHub: Domisnnet/Kill-Buzz](https://github.com/Domisnnet/Kill-Buzz)
+[![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Kill-Buzz?style=social)](https://github.com/Domisnnet/Kill-Buzz)
+
+[![Acessar Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FKill--Buzz-blue?style=flat&logo=github)](https://github.com/Domisnnet/Kill-Buzz)
 
 ## Créditos 📝
 
-* **Desenvolvedor:** DomisDev (Linkado no perfil do GitHub abaixo).
+* **Desenvolvedor:** DomisDev.
 * **Imagens:** Criadas especificamente para este projeto.
 * **Bibliotecas:** Bootstrap.
 
