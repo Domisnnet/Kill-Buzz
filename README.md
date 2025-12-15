@@ -13,7 +13,7 @@ Prepare-se para testar seus reflexos neste divertido e desafiador jogo de ação
 Clique no botão abaixo e comece a eliminar os mosquitos:
 
 <a href="https://domisnnet.github.io/Kill-Buzz/app.html?normal" target="_blank">
-    <img alt="Botão Iniciar Jogo" src="https://raw.githubusercontent.com/Domisnnet/Kill-Buzz/main/src/imagens/bot%C3%A3o.webp" height="40" width="40" />
+    <img alt="Botão Iniciar Jogo" src="https://raw.githubusercontent.com/Domisnnet/Kill-Buzz/main/src/imagens/bot%C3%A3o.webp" height="70" width="70" />
 </a>
 
 ---
