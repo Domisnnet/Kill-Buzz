@@ -86,7 +86,7 @@ Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://
 
 <a href="https://github.com/Domisnnet">
    <img src="https://github.com/Domisnnet/App-Kill-Buzz/blob/main/src/imagens/DomisDev.png" 
-    width="100px" height="100px" alt="Acessar perfil GitHub">
+    width="150px" height="150px" alt="Acessar perfil GitHub">
 </a>
 
 ---
