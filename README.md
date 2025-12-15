@@ -63,8 +63,7 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
             <img alt="Fazer um Fork" 
             src="https://img.shields.io/badge/-Fork%20Me-blue?style=for-the-badge&logo=github">
          </a>
-         </span> 
-            Adicione este projeto ao seu deck.
+         </span> Adicione este projeto ao seu deck.
       </li>
       <li style="margin-bottom: 10px;">
          <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:
@@ -88,17 +87,17 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
       </li>
       <li>
          <span style="font-weight: bold; color: #1c7430;">5. ⚔️ 
-         <a href="https://github.com/Domisnnet/Kill-Buzz/compare" 
-            target="_blank" style="color: #1c7430; text-decoration: underline;">
-            Abra um Pull Request
-         </a>:
+         <a href="https://github.2com/Domisnnet/Kill-Buzz/compare" target="_blank">
+            <img alt="Abrir Pull Request" 
+            src="https://img.shields.io/badge/-Abrir%20PR-green?style=for-the-badge&logo=git">
+         </a>
          </span> Desafie este deck original.
       </li>
       <li>
          <span style="font-weight: bold; color: #1c7430;">6. 🐛
-         <a href="https://github.com/Domisnnet/Kill-Buzz/issues" 
-            target="_blank" style="color: #1c7430; text-decoration: underline;">
-            Reportar um problema/Sugestão (Issues)
+         <a href="https://github.com/Domisnnet/Kill-Buzz/issues" target="_blank">
+            <img alt="Issues Abertas" 
+            src="https://img.shields.io/github/issues/Domisnnet/Kill-Buzz?style=for-the-badge&color=red">
          </a>
          </span>
       </li>
