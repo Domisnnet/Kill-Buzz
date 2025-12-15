@@ -68,9 +68,9 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
       <li style="margin-bottom: 10px;">
          <span style="font-weight: bold; color: #1c7430;">2. 🌿 Crie uma branch:
          </span> Prepare suas atualizações. 
-         <a href="https://www.atlassian.com/br/git/tutorialsusing-branches"            
-            target="_blank" style="color: #1c7430; text-decoration: underline;">
-            Tutorial sobre Branches
+         <a href="https://www.atlassian.com/br/git/tutorials/using-branches" target="_blank">
+            <img alt="Tutorial sobre Branches" 
+            src="https://img.shields.io/badge/Docs-Branches-4c1?style=for-the-badge&logo=git&logoColor=white">
          </a>
       </li>
       <li style="margin-bottom: 10px;">
