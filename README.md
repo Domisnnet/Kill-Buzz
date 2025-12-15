@@ -59,7 +59,7 @@ Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos
    <ul style="list-style-type: none; padding: 0; margin: 0;">
       <li style="margin-bottom: 10px;">
          <span style="font-weight: bold; color: #1c7430;">1. 🍴 
-         Adicione este projeto ao seu deck
+            Adicione este projeto ao seu deck
          <a href="https://github.com/Domisnnet/Kill-Buzz/fork" target="_blank">
             <img alt="Fazer um Fork" 
             src="https://img.shields.io/badge/-Fork%20Me-blue?style=for-the-badge&logo=github">
