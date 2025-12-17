@@ -121,7 +121,7 @@ Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
 ## Créditos 📝
 
-* **Desenvolvedor 👨‍💻: **DomisDev**.
+* **Desenvolvedor 👨‍💻:**DomisDev**.
 
 * **Imagens 🖼️:** Criadas especificamente para este projeto.
 * **Bibliotecas 🅱️:** Bootstrap.
