@@ -42,7 +42,7 @@ Este jogo foi desenvolvido usando:
 * **HTML5** 🌐: Estrutura semântica do projeto.
 * **CSS3** 🎨: Estilização do *layout*.
 * **JavaScript** 💻: Lógica e manipulação do DOM.
-* **Bootstrap**: Para um layout responsivo e adaptável.
+* **Bootstrap 🅱️**: Para um layout responsivo e adaptável.
 
 ## 🤝 Como Contribuir
 
