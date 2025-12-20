@@ -154,7 +154,7 @@ Divirta-se eliminando todos os mosquitos! 🎉
 
 <h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/GitHub-Stats)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/edit/main/LICENSE)
+Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/GitHub-Stats)](https://github.com/Domisnnet/Kill-Buzz/edit/main/LICENSE)
 
 ---
 
