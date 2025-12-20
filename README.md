@@ -135,7 +135,7 @@ Siga os passos abaixo para fortalecer este projeto:
 
 **👨‍💻 Networking e Contato:**<br>
 <a href="https://github.com/Domisnnet">
-  <img src="https://img.shields.io/badge/Meu_Perfil-212121?style=for-the-badge&logo=github" alt="Perfil">
+  <img src="https://img.shields.io/badge/Meu_Perfil_GitHub-212121?style=for-the-badge&logo=github" alt="Perfil">
 </a>
 </details>
 
