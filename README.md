@@ -132,6 +132,7 @@ Siga os passos abaixo para fortalecer este projeto:
   <img src="https://img.shields.io/badge/Abrir-Issue-red?style=for-the-badge&logo=github" alt="Report Issue">
 </a>
 <br>
+
 **👨‍💻 Networking e Contato:**<br>
 <a href="https://github.com/Domisnnet">
   <img src="https://img.shields.io/badge/Meu_Perfil-212121?style=for-the-badge&logo=github" alt="Perfil">
