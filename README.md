@@ -113,27 +113,36 @@ Siga os passos abaixo para fortalecer este projeto:
 
 <h2 id="faq">8. 🧠 Perguntas Frequentes</h2>
 
-<details><summary><strong>Como faço para reiniciar o jogo ❓</strong></summary>
-<p>🔄 <strong>Resposta:</strong> É simples! Ao final de cada partida, uma tela de <strong>Vitória</strong> ou <strong>Game Over</strong> será exibida. Basta clicar no botão centralizado para reiniciar o cronômetro e as vidas.</p></details>
+<details>
+<summary><strong>Como faço para reiniciar o jogo ❓</strong></summary>
+<p>🔄 <strong>Resposta:</strong> É simples! Ao final de cada partida, uma tela de <strong>Vitória</strong> ou <strong>Game Over</strong> será exibida. Basta clicar no botão centralizado para reiniciar o cronômetro e as vidas.</p>
+</details>
 
-<details><summary><strong>O que acontece se eu deixar um mosquito escapar ❓</strong>
-</summary>
-<p>🚫 <strong>Atenção:</strong> Cada mosquito que desaparece antes do seu clique consome <strong>1 ponto de vida</strong>. O coração no topo da tela mudará de cheio para vazio. Ao perder os 3 corações, o jogo termina.</p></details>
+<details>
+<summary><strong>O que acontece se eu deixar um mosquito escapar ❓</strong></summary>
+<p>🚫 <strong>Atenção:</strong> Cada mosquito que desaparece antes do seu clique consome <strong>1 ponto de vida</strong>. O coração no topo da tela mudará de cheio para vazio. Ao perder os 3 corações, o jogo termina.</p>
+</details>
 
-<details><summary><strong>Qual a duração da partida ❓</strong></summary>
-<p>⏱️ <strong>Duração:</strong> Cada rodada de caça aos mosquitos dura exatamente <strong>15 segundos</strong>. O objetivo é manter suas vidas intactas até que o cronômetro chegue a zero.</p></details>
+<details>
+<summary><strong>O jogo funciona em dispositivos móveis ❓</strong></summary>
+<p>📱 <strong>Sim!</strong> O projeto foi desenvolvido com <strong>Bootstrap</strong> para ser responsivo. Os mosquitos se adaptam ao tamanho da tela do seu celular, permitindo que você jogue usando o toque (touch).</p>
+</details>
 
-<details><summary><strong>Como entro em contato com o desenvolvedor ❓</strong>
-</summary>
+<details>
+<summary><strong>Como a dificuldade é calculada ❓</strong></summary>
+<p>⚡ <strong>Lógica:</strong> A dificuldade altera o <code>intervallo</code> de surgimento dos mosquitos via JavaScript. No modo <strong>Normal</strong> você tem 1.5s para reagir, enquanto no modo <strong>Chuck Norris</strong> esse tempo cai drasticamente.</p>
+</details>
+
+<details>
+<summary><strong>Como entro em contato com o desenvolvedor ❓</strong></summary>
 <p>Adoramos receber sugestões para novos níveis ou temas! Utilize os canais abaixo:</p>
 
-**🐛 Reportar Bug ou Sugestão:**<br>
+<strong>🐛 Reportar Bug ou Sugestão:</strong><br>
 <a href="https://github.com/Domisnnet/Kill-Buzz/issues">
   <img src="https://img.shields.io/badge/Abrir-Issue-red?style=for-the-badge&logo=github" alt="Report Issue">
 </a>
-<br>
-
-**👨‍💻 Networking e Contato:**<br>
+<br><br>
+<strong>👨‍💻 Networking e Contato:</strong><br>
 <a href="https://github.com/Domisnnet">
   <img src="https://img.shields.io/badge/Meu_Perfil_GitHub-212121?style=for-the-badge&logo=github" alt="Perfil">
 </a>
