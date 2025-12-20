@@ -115,22 +115,34 @@ Siga os passos abaixo para fortalecer este projeto:
 
 <details>
 <summary><strong>Como faço para reiniciar o jogo ❓</strong></summary>
-<p>Ao final da partida, clique no botão "Reiniciar" que aparecerá na tela de Game Over ou Vitória.</p>
+<p>🔄 <strong>Resposta:</strong> É simples! Ao final de cada partida, uma tela de <strong>Vitória</strong> ou <strong>Game Over</strong> será exibida. Basta clicar no botão centralizado para reiniciar o cronômetro e as vidas.</p>
 </details>
 
 <details>
 <summary><strong>O que acontece se eu deixar um mosquito escapar ❓</strong></summary>
-<p>Você perde um dos corações (vidas). Se perder as 3 vidas, o jogo acaba imediatamente.</p>
+<p>🚫 <strong>Atenção:</strong> Cada mosquito que desaparece antes do seu clique consome <strong>1 ponto de vida</strong>. O coração no topo da tela mudará de cheio para vazio. Ao perder os 3 corações, o jogo termina.</p>
 </details>
 
 <details>
 <summary><strong>Qual a duração da partida ❓</strong></summary>
-<p>Cada rodada dura exatamente 15 segundos de pura adrenalina!</p>
+<p>⏱️ <strong>Duração:</strong> Cada rodada de caça aos mosquitos dura exatamente <strong>15 segundos</strong>. O objetivo é manter suas vidas intactas até que o cronômetro chegue a zero.</p>
 </details>
 
 <details>
 <summary><strong>Como entro em contato com o desenvolvedor ❓</strong></summary>
-<p>Você pode abrir uma <strong>Issue</strong> no repositório ou me chamar pelo meu perfil do GitHub abaixo.</p>
+<p>Adoramos receber sugestões para novos níveis ou temas! Utilize os canais abaixo:</p>
+
+**🐛 Reportar Bug ou Sugestão:**<br>
+<a href="https://github.com/Domisnnet/Kill-Buzz/issues">
+  <img src="https://img.shields.io/badge/Abrir-Issue-red?style=for-the-badge&logo=github" alt="Report Issue">
+</a>
+
+<br><br>
+
+**👨‍💻 Networking e Contato:**<br>
+<a href="https://github.com/Domisnnet">
+  <img src="https://img.shields.io/badge/Meu_Perfil-212121?style=for-the-badge&logo=github" alt="Perfil">
+</a>
 </details>
 
 ---
