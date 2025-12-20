@@ -1,154 +1,163 @@
-# 🦟 Mata Mosquito!
+<h2 id="sobre-o-projeto">1. 🦟 Mata Mosquito!</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blue)
-[![Licença MIT](https://img.shields.io/github/license/Domisnnet/Kill-Buzz)](https://github.com/Domisnnet/Kill-Buzz?tab=MIT-1-ov-file)
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Kill-Buzz/edit/main/LICENSE)
 
-![Tela Principal do Jogo](https://raw.githubusercontent.com/Domisnnet/Kill-Buzz/main/src/imagens/tela.png)
-
-Prepare-se para testar seus reflexos neste divertido e desafiador jogo de ação!
-
-## 🔗 Jogue Agora!
-
-Clique no botão abaixo e comece a eliminar os mosquitos:
-
-<a href="https://domisnnet.github.io/Kill-Buzz/app.html?normal" target="_blank">
-    <img alt="Botão Iniciar Jogo" src="https://raw.githubusercontent.com/Domisnnet/Kill-Buzz/main/src/imagens/bot%C3%A3o.webp" height="70" width="70" />
-</a>
-
----
-
-## Sobre o Jogo 🕹️
+![Kill-Buzz](src/imagens/tela.png)
 
 Em **Mata Mosquito**, seu objetivo é simples: eliminar o máximo de mosquitos que conseguir antes que o tempo acabe. Mas cuidado! A cada mosquito que escapar, você perde uma vida. Não deixe os mosquitos vencerem!
-
-## Como Jogar 🎮
-
-1. **Seleção de Nível:** Escolha a dificuldade que melhor se adequa ao seu desafio:
-
-   * **Normal:** Ideal para todos os jogadores, com mosquitos surgindo a cada 1.5 segundos.
-   * **Difícil:** Um desafio maior, com mosquitos mais rápidos, surgindo a cada 1 segundo.
-   * **Chuck Norris:** Para os mais corajosos! Mosquitos rápidos como um raio, surgindo em menos de 1 segundo.
-
-2. **Controles:**
-   * **Clique nos Mosquitos:** Use o clique do mouse para eliminar os mosquitos que surgem na tela.
-   * **Tempo:** A partida termina quando o tempo se esgota (15 segundos).
-   * **Vidas:** Você começa com 3 vidas. Ao perder as três vidas, o jogo acaba.
-
-## Tecnologias Utilizadas ⚙️
-
-Este jogo foi desenvolvido usando:
-
-* **HTML5** 🌐: Estrutura semântica do projeto.
-* **CSS3** 🎨: Estilização do *layout*.
-* **JavaScript** 💻: Lógica e manipulação do DOM.
-* **Bootstrap 🅱️**: Para um layout responsivo e adaptável.
-
-## 🤝 Como Contribuir
-
-Sinta-se à vontade para sugerir melhorias ou reportar *bugs*. Siga estes passos:
-
-<div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px;
-            border: 2px solid #222;">
-   <p style="margin-bottom: 10px; font-weight: bold; color: #0056b3; 
-            text-align: center;">
-      <span style="display:inline-block; margin-right: 5px;"> 👐 
-      </span> 
-      Siga os passos para fortalecer este deck:
-   </p>
-   <ul style="list-style-type: none; padding: 0; margin: 0;">
-      <li style="margin-bottom: 10px;">
-         <span style="font-weight: bold; color: #1c7430;">1. 🍴 
-            Adicione este projeto ao seu deck e faça um Fork:<br>
-         <a href="https://github.com/Domisnnet/Kill-Buzz/fork" target="_blank">
-            <img alt="Fazer um Fork" 
-            src="https://img.shields.io/badge/-Fork%20Me-blue?style=for-the-badge&logo=github">
-         </a>
-         </span>
-      </li>
-      <li style="margin-bottom: 10px;">
-         <span style="font-weight: bold; color: #1c7430;">2. 🌿 
-            Crie uma branch - Prepare suas atualizações com esse passo a passo:<br>
-         <a href="https://www.atlassian.com/br/git/tutorials/using-branches" target="_blank">
-            <img alt="Tutorial sobre Branches" 
-            src="https://img.shields.io/badge/Docs-Branches-4c1?style=for-the-badge&logo=git&logoColor=white">
-         </a>
-         </span>
-      </li>
-      <li style="margin-bottom: 10px;">
-         <span style="font-weight: bold; color: #1c7430;">3. ✍️ 
-            Prepare seus commits - Guarde suas mudanças no repositório:<br>
-         <a href="https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit" 
-            target="_blank">
-            <img alt="Tutorial sobre Commits" 
-            src="https://img.shields.io/badge/Docs-Commits-4c1?style=for-the-badge&logo=git&logoColor=white">
-         </a>
-         </span>
-      </li>
-      <li style="margin-bottom: 10px;">
-         <span style="font-weight: bold; color: #1c7430;">4. 🚀 
-            Envie - Lance sua sugestão de Melhoria:<br>
-            <img alt="Envie o código" 
-            src="https://img.shields.io/badge/Ação-Push-FE5C00?style=for-the-badge&logo=git&logoColor=white">
-         </span>
-      </li>
-      <li>
-         <span style="font-weight: bold; color: #1c7430;">5. ⚔️ 
-            Desafie este deck original - Abrindo um Pull Request:<br>
-         <a href="https://github.2com/Domisnnet/Kill-Buzz/compare" target="_blank">
-            <img alt="Abrir Pull Request" 
-            src="https://img.shields.io/badge/-Abrir%20PR-green?style=for-the-badge&logo=git">
-         </a>
-         </span>
-      </li>
-      <li>
-         <span style="font-weight: bold; color: #1c7430;">6. 🐛
-            Achou algum problema? - Realte pela Issue:<br>
-         <a href="https://github.com/Domisnnet/Kill-Buzz/issues" target="_blank">
-            <img alt="Issues Abertas" 
-            src="https://img.shields.io/github/issues/Domisnnet/Kill-Buzz?style=for-the-badge&color=red">
-         </a>
-         </span>
-      </li>
-   </ul>
-</div>
-
-## Código Fonte 💻
-
-Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
-
-[![Acessar Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FKill--Buzz-blue?style=flat&logo=github)](https://github.com/Domisnnet/Kill-Buzz)
-
-## Créditos 📝
-
-* **Desenvolvedor 👨‍💻: DomisDev**.
-* **Imagens 🖼️:** Criadas especificamente para este projeto.
-* **Bibliotecas 🅱️:** Bootstrap.
-
-## 📄 Licença
-
-Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Kill-Buzz)](https://github.com/Domisnnet/Kill-Buzz?tab=MIT-1-ov-file)
-
-## FAQ 🤔
-
-**Pergunta 1:** Como faço para reiniciar o jogo?
-**Resposta:** Ao final da partida, clique no botão "Reiniciar" para começar novamente.
-
-**Pergunta 2:** O que acontece se eu deixar um mosquito escapar?
-**Resposta:** Você perde uma vida. Ao perder todas as três vidas, o jogo termina.
-
-**Pergunta 3:** Qual a duração do jogo?
-**Resposta:** Cada partida tem a duração de 15 segundos.
-
-**Pergunta 4:** Como posso entrar em contato com o desenvolvedor?
-**Resposta:** Você pode entrar em contato através do meu perfil no GitHub.
-
-<a href="https://github.com/Domisnnet">
-   <img src="https://github.com/Domisnnet/App-Kill-Buzz/blob/main/src/imagens/DomisDev.png" 
-    width="150px" height="150px" alt="Acessar perfil GitHub">
-</a>
+Prepare-se para testar seus reflexos neste divertido e desafiador jogo de ação!
 
 ---
 
+##Tabela de Conteúdo
 
+---
+
+<h2 id="tecnologias-utilizadas">2. ⚙️ Tecnologias Utilizadas</h2>
+
+| Camada | Tecnologias | Descrição |
+| :--- | :--- | :--- |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Estrutura e estilização do projeto. |
+| **Lógica** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Manipulação dinâmica do DOM e lógica de jogo. |
+| **UI/UX** | ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white) | Layout responsivo e adaptável. |
+
+---
+
+<h2 id="como-jogar">3. 🎮 Como Jogar</h2>
+
+| Passo | Ação |
+| :---: | :--- |
+| **1** | Escolha a dificuldade: **Normal** (1.5s), **Difícil** (1s) ou **Chuck Norris** (<1s). |
+| **2** | Clique nos mosquitos que surgem aleatoriamente na tela. |
+| **3** | Gerencie suas **3 vidas**. Se um mosquito sumir antes de você clicar, você perde uma vida. |
+| **4** | Sobreviva por **15 segundos** para vencer a partida! |
+
+---
+
+🚀 Jogue Agora!</h2>
+
+Clique no botão abaixo para iniciar o desafio no seu navegador no modo normal como padrão:
+
+<div align="left">
+  <a href="https://domisnnet.github.io/Kill-Buzz/app.html?normal" target="_blank">
+    <img alt="Botão Iniciar Jogo" src="https://raw.githubusercontent.com/Domisnnet/Kill-Buzz/main/src/imagens/bot%C3%A3o.webp" height="70" width="70" />
+  </a>
+</div>
+
+---
+
+<h2 id="regras-do-jogo">4. 🧩 Regras do Jogo</h2>
+
+O segredo para dominar o **Mata Mosquito** é o tempo de reação. Fique atento às diretrizes do duelo:
+
+| Regra | Descrição |
+| :--- | :--- |
+| 🕒 **O Tempo** | Você tem exatamente **15 segundos** para sobreviver. O cronômetro decrescente dita o ritmo da partida. |
+| ❤️ **As Vidas** | Você inicia com **3 vidas**. Se um mosquito desaparecer antes de ser clicado, você perde uma vida. |
+| 🦟 **O Alvo** | Os mosquitos surgem em tamanhos e orientações aleatórias para testar sua percepção. |
+| 🏁 **Vitória** | Se o cronômetro chegar a zero e você tiver ao menos uma vida, você vence! |
+| 💀 **Derrota** | O jogo termina imediatamente se você perder todas as 3 vidas. |
+
+### 📊 Níveis de Dificuldade
+A velocidade de surgimento dos mosquitos define o seu desafio:
+* 🟢 **Normal:** Mosquitos surgem a cada **1.5 segundos**.
+* 🟡 **Difícil:** Mosquitos surgem a cada **1.0 segundo**.
+* 🔴 **Chuck Norris:** Desafio extremo com surgimento em **menos de 1 segundo**.
+
+---
+
+<h2 id="destaques-tecnicos">5. 💻 Destaques Técnicos</h2>
+
+Este projeto foca na manipulação pura do **DOM** (Document Object Model) e lógica procedural com JavaScript. Abaixo, os principais pilares da implementação:
+
+### 📐 Posicionamento Randômico Inteligente
+Para garantir que os mosquitos nunca saiam da área visível da tela, utilizamos o cálculo de coordenadas baseado na largura e altura da janela:
+* Utilização de `window.innerWidth` e `window.innerHeight`.
+* Função `Math.random()` combinada com `Math.floor` para gerar coordenadas X e Y dinâmicas.
+* Tratamento de bordas para subtrair o tamanho da imagem do mosquito, evitando barras de rolagem indesejadas.
+
+### 🔄 Ciclo de Vida do Elemento
+Diferente de frameworks modernos, aqui o ciclo de vida é controlado manualmente:
+1.  **Criação:** O elemento `<img>` é criado via `document.createElement`.
+2.  **Estilização:** Aplicação dinâmica de classes CSS para tamanhos e lados aleatórios.
+3.  **Remoção:** O elemento é removido automaticamente se não for clicado a tempo, disparando a lógica de perda de vida.
+
+### 🚦 Gerenciamento de Estado de Vidas
+O sistema de vidas alterna as imagens dos corações entre `coracao_cheio.png` e `coracao_vazio.png` através da manipulação do ID do elemento, garantindo feedback visual imediato ao jogador.
+
+---
+
+<h2 id="codigo-fonte">6. 💻 Código Fonte</h2>
+
+Gostou da lógica do jogo? Sinta-se à vontade para explorar o código ou clonar o repositório:
+
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FKill--Buzz-blue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Kill-Buzz)
+
+---
+
+<h2 id="como-contribuir">7. 🤝 Como Contribuir</h2>
+
+Siga os passos abaixo para fortalecer este projeto:
+
+| Fase | Ação | Link / Comando |
+| :---: | :--- | :--- |
+| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Kill-Buzz/fork) |
+| **02** | **Branch** | `git checkout -b feature/MinhaMelhoria` |
+| **03** | **Commit** | `git commit -m 'feat: melhoria no sistema de sons'` |
+| **04** | **Push** | `git push origin feature/MinhaMelhoria` |
+| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Kill-Buzz/compare) |
+
+---
+
+<h2 id="faq">8. 🧠 Perguntas Frequentes</h2>
+
+<details>
+<summary><strong>Como faço para reiniciar o jogo ❓</strong></summary>
+<p>Ao final da partida, clique no botão "Reiniciar" que aparecerá na tela de Game Over ou Vitória.</p>
+</details>
+
+<details>
+<summary><strong>O que acontece se eu deixar um mosquito escapar ❓</strong></summary>
+<p>Você perde um dos corações (vidas). Se perder as 3 vidas, o jogo acaba imediatamente.</p>
+</details>
+
+<details>
+<summary><strong>Qual a duração da partida ❓</strong></summary>
+<p>Cada rodada dura exatamente 15 segundos de pura adrenalina!</p>
+</details>
+
+<details>
+<summary><strong>Como entro em contato com o desenvolvedor ❓</strong></summary>
+<p>Você pode abrir uma <strong>Issue</strong> no repositório ou me chamar pelo meu perfil do GitHub abaixo.</p>
+</details>
+
+---
+
+<h2 id="codigo-fonte">9. 💻 Código Fonte</h2>
+
+Gostou do jogo? Explore o código ou faça sugestões:
+
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDrakonik--Nexus-blue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Kill-Buzz)
+
+---
+
+<h2 id="créditos">10. 📝 Créditos</h2>
+
+* **Desenvolvedor:** DomisDev
+* **Imagens:** Originais do projeto
+* **Bibliotecas:** Bootstrap
 Divirta-se eliminando todos os mosquitos! 🎉
+
+---
+
+<h2 id="licenca">11. 📄 Licença</h2>
+
+Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/GitHub-Stats)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/edit/main/LICENSE)
+
+---
+
+<h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
+
+<a href="https://github.com/Domisnnet"> <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
