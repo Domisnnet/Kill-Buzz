@@ -145,10 +145,11 @@ Gostou do jogo? Explore o código ou faça sugestões:
 
 <h2 id="créditos">10. 📝 Créditos</h2>
 
-* **Desenvolvedor:** DomisDev
-* **Imagens:** Originais do projeto
-* **Bibliotecas:** Bootstrap
-* **Objetivo:** Divirta-se eliminando todos os mosquitos! 🎉
+* **Desenvolvedor 👨‍💻: DomisDev**.
+* **Imagens:** 🖼️ Originais do projeto.
+* **Bibliotecas:** 📚 Bootstrap.
+* **Objetivo:** 🎯 Projeto prático para estudo de manipulação de DOM.
+**Diversão:** 🎉 Divirta-se eliminando todos os mosquitos!
 
 ---
 
