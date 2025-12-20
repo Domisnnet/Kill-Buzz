@@ -148,7 +148,7 @@ Gostou do jogo? Explore o código ou faça sugestões:
 * **Desenvolvedor: 👨‍💻 DomisDev**.
 * **Imagens:** 🖼️ Originais do projeto.
 * **Bibliotecas: 📚 Bootstrap**.
-* **Objetivo:** 🎯 Projeto prático para estudo de manipulação de DOM.
+* **Objetivo:** 🎯 Projeto prático para estudo e manipulação de DOM.
 * **Diversão:** 🎉 Divirta-se eliminando todos os mosquitos!
 
 ---
