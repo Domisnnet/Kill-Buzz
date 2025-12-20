@@ -148,7 +148,7 @@ Gostou do jogo? Explore o código ou faça sugestões:
 * **Desenvolvedor:** DomisDev
 * **Imagens:** Originais do projeto
 * **Bibliotecas:** Bootstrap
-Divirta-se eliminando todos os mosquitos! 🎉
+* **Objetivo:** Divirta-se eliminando todos os mosquitos! 🎉
 
 ---
 
