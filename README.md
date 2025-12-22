@@ -1,7 +1,7 @@
 <h2 id="sobre-o-projeto">1. 🦟 Mata Mosquito!</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
-![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blue)
+![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20Bootstrap-blueviolet)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Kill-Buzz/edit/main/LICENSE)
 
 ![Kill-Buzz](src/imagens/tela.png)
